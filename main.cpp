@@ -38,7 +38,7 @@ void search(string input)
     fstream myfile;
     vector<string> row;
     string word, line, id, name, group;
-    myfile.open("key.csv", ios::in);
+    myfile.open("data.csv", ios::in);
 
     while (getline(myfile, line))
     {
